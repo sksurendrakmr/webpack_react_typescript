@@ -7,3 +7,5 @@ For code transpilation, we will use BABEL.
 
 React code which we have configured is not understood by browser as it. We need BABEL
 to convert the typescript and react code into javascript.
+
+yarn add -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript
