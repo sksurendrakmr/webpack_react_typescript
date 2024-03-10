@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "sksurendrakmr <sksurendrakmr@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
