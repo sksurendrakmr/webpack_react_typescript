@@ -1,3 +1,9 @@
 src folder - This will hold our source
 build folder - This will contains all the files and artifacts when we 
 build our react application for deployment.
+
+tsconfig.json file will be used for type checking and not for code transpilation.
+For code transpilation, we will use BABEL.
+
+React code which we have configured is not understood by browser as it. We need BABEL
+to convert the typescript and react code into javascript.
