@@ -13,3 +13,8 @@ yarn add -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-type
 webpack (a module bundler)
 The code we write across multiple components will be bundled by webpack which can be
 referenced in the index.html file
+
+yarn add -D webpack webpack-cli webpack-dev-server html-wepack-plugin
+
+Apart from this, we also need babel loader package which allow transpiling of javascript file using
+bable and webpack.
