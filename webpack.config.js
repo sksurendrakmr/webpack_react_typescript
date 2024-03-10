@@ -20,6 +20,10 @@ module.exports = {
             {
                 test: /\.(?:ico|jpg|png|jpeg)$/i,
                 use: 'asset/resource'
+            },
+            {
+                test: /\.(woff)2?|eot|ttf|otf|svg$/,
+                type: 'asset/inline'
             }
         ]
     },
