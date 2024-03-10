@@ -9,3 +9,7 @@ React code which we have configured is not understood by browser as it. We need 
 to convert the typescript and react code into javascript.
 
 yarn add -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript
+
+webpack (a module bundler)
+The code we write across multiple components will be bundled by webpack which can be
+referenced in the index.html file
