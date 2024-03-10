@@ -24,3 +24,8 @@ bable and webpack.
 By default, webpack doesn't know how to process the CSS files.
 For this, we need to install two loaders and instruct webpack to use both for all css files.
 yarn -D css-loader style-loader
+
+
+====
+Lecture for prod and dev webpack env
+yarn add -D webpack-merge
