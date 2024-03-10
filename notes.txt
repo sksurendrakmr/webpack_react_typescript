@@ -29,3 +29,14 @@ yarn -D css-loader style-loader
 ====
 Lecture for prod and dev webpack env
 yarn add -D webpack-merge
+
+
+==
+Lecture - React refresh feature.
+upto this configuration, whenever webpack detect any change, it will reload the browser and
+it causes component loose its state.
+
+yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+
+since we have devServer settings defined in webpack.dev.js file, thus we can remove
+--open flag from "start" script.
